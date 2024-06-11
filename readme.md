@@ -8,10 +8,13 @@ username : admin
 password : admin
 
 test123
-test
+test123
 
 kasir123
 kasir123
 
 gudang
 gudang
+
+akuntest
+akuntest

@@ -50,14 +50,13 @@
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
 </head>
 <style>
-    .field-icon 
-    {
-        float: right;
-        margin-left: -25px;
-        margin-top: -32px;
-        position: relative;
-        z-index: 2;
-    }
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -32px;
+    position: relative;
+    z-index: 2;
+}
 </style>
 
 <body>
@@ -88,126 +87,126 @@
                         if($type != "Kasir")
                         {
                     ?>
-                        <li class="sidebar-item">
-                            <a href="suppliers.php" class="sidebar-link">
-                                <i class="bi bi-truck-front-fill"></i>
-                                <span>Suppliers</span>
-                            </a>
-                        </li>
+                    <li class="sidebar-item">
+                        <a href="suppliers.php" class="sidebar-link">
+                            <i class="bi bi-truck-front-fill"></i>
+                            <span>Suppliers</span>
+                        </a>
+                    </li>
 
-                        <li class="sidebar-item has-sub">
-                            <a href="#" class="sidebar-link">
-                                <i class="bi bi-box-seam-fill"></i>
-                                <span>Items</span>
-                            </a>
-                            <ul class="submenu">
-                                <li class="submenu-item ">
-                                    <a href="item-list.php">Item List</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="item-category.php">Item Category</a>
-                                </li>
-                            </ul>
-                        </li>
+                    <li class="sidebar-item has-sub">
+                        <a href="#" class="sidebar-link">
+                            <i class="bi bi-box-seam-fill"></i>
+                            <span>Items</span>
+                        </a>
+                        <ul class="submenu">
+                            <li class="submenu-item ">
+                                <a href="item-list.php">Item List</a>
+                            </li>
+                            <li class="submenu-item ">
+                                <a href="item-category.php">Item Category</a>
+                            </li>
+                        </ul>
+                    </li>
                     <?php    
                         }
                         
                         if($type == "Admin")
                         {
-                    ?>    
-                        <li class="sidebar-item  has-sub">
-                            <a href="#" class="sidebar-link">
-                                <i class="bi bi-archive-fill"></i>
-                                <span>Stock</span>
-                            </a>
-                            <ul class="submenu ">
-                                <li class="submenu-item ">
-                                    <a href="stock-item.php">Stock Item</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="incoming-stock.php">Incoming Stock</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="out-of-stock.php">Out of Stock</a>
-                                </li>
-                            </ul>
-                        </li>
+                    ?>
+                    <li class="sidebar-item  has-sub">
+                        <a href="#" class="sidebar-link">
+                            <i class="bi bi-archive-fill"></i>
+                            <span>Stock</span>
+                        </a>
+                        <ul class="submenu ">
+                            <li class="submenu-item ">
+                                <a href="stock-item.php">Stock Item</a>
+                            </li>
+                            <li class="submenu-item ">
+                                <a href="incoming-stock.php">Incoming Stock</a>
+                            </li>
+                            <li class="submenu-item ">
+                                <a href="out-of-stock.php">Out of Stock</a>
+                            </li>
+                        </ul>
+                    </li>
                     <?php    
                         }
 
                         if($type == "Gudang")
                         {
                     ?>
-                        <li class="sidebar-item  has-sub">
-                            <a href="#" class="sidebar-link">
-                                <i class="bi bi-archive-fill"></i>
-                                <span>Stock</span>
-                            </a>
-                            <ul class="submenu ">
-                                <li class="submenu-item ">
-                                    <a href="stock-item.php">Stock Item</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="incoming-stock.php">Incoming Stock</a>
-                                </li>
-                            </ul>
-                        </li>
+                    <li class="sidebar-item  has-sub">
+                        <a href="#" class="sidebar-link">
+                            <i class="bi bi-archive-fill"></i>
+                            <span>Stock</span>
+                        </a>
+                        <ul class="submenu ">
+                            <li class="submenu-item ">
+                                <a href="stock-item.php">Stock Item</a>
+                            </li>
+                            <li class="submenu-item ">
+                                <a href="incoming-stock.php">Incoming Stock</a>
+                            </li>
+                        </ul>
+                    </li>
                     <?php    
                         }
 
                         if($type != "Kasir")
                         {
                     ?>
-                        <li class="sidebar-item  has-sub">
-                            <a href="#" class="sidebar-link">
-                                <i class="bi bi-file-text-fill"></i>
-                                <span>Reports</span>
-                            </a>
-                            <ul class="submenu">
-                                <li class="submenu-item ">
-                                    <a href="reports-incoming.php">Incoming Stock</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="reports-out.php">Out of Stock</a>
-                                </li>
-                            </ul>
-                        </li>
+                    <li class="sidebar-item  has-sub">
+                        <a href="#" class="sidebar-link">
+                            <i class="bi bi-file-text-fill"></i>
+                            <span>Reports</span>
+                        </a>
+                        <ul class="submenu">
+                            <li class="submenu-item ">
+                                <a href="reports-incoming.php">Incoming Stock</a>
+                            </li>
+                            <li class="submenu-item ">
+                                <a href="reports-out.php">Out of Stock</a>
+                            </li>
+                        </ul>
+                    </li>
                     <?php    
                         }
 
                         if($type == "Kasir")
                         {
                     ?>
-                        <li class="sidebar-item  has-sub">
-                            <a href="#" class="sidebar-link">
-                                <i class="bi bi-archive-fill"></i>
-                                <span>Stock</span>
-                            </a>
-                            <ul class="submenu ">
-                                <li class="submenu-item ">
-                                    <a href="stock-item.php">Stock Item</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="out-of-stock.php">Out of Stock</a>
-                                </li>
-                            </ul>
-                        </li>
+                    <li class="sidebar-item  has-sub">
+                        <a href="#" class="sidebar-link">
+                            <i class="bi bi-archive-fill"></i>
+                            <span>Stock</span>
+                        </a>
+                        <ul class="submenu ">
+                            <li class="submenu-item ">
+                                <a href="stock-item.php">Stock Item</a>
+                            </li>
+                            <li class="submenu-item ">
+                                <a href="out-of-stock.php">Out of Stock</a>
+                            </li>
+                        </ul>
+                    </li>
                     <?php    
                         }
 
                         if($type == "Admin")
                         {
                     ?>
-                        <li class="sidebar-item">
-                            <a href="account-list.php" class="sidebar-link" onclick="active()">
-                                <i class="bi bi-person-badge-fill"></i>
-                                <span>Account</span>
-                            </a>
-                        </li>
+                    <li class="sidebar-item">
+                        <a href="account-list.php" class="sidebar-link" onclick="active()">
+                            <i class="bi bi-person-badge-fill"></i>
+                            <span>Account</span>
+                        </a>
+                    </li>
                     <?php    
                         }
                     ?>
-                    
+
                     <li class="sidebar-item">
                         <a href="#" class="sidebar-link" data-bs-toggle="modal" data-bs-target="#logoutModal">
                             <i class="bi bi-door-closed-fill"></i>
@@ -219,7 +218,7 @@
             <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
         </div>
     </div>
-    
+
     <div id="main">
         <header class="mb-3">
             <a href="#" class="burger-btn d-block d-xl-none">
@@ -393,17 +392,28 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="confirm password">Retype New Password</label>
-                                    <input type="password" id="confirm password" class="form-control" 
-                                        placeholder="Retype New Password" name="confirm_password" autocomplete="off" required>
+                                    <input type="password" id="confirm password" class="form-control"
+                                        placeholder="Retype New Password" name="confirm_password" autocomplete="off"
+                                        required>
                                 </div>
                                 <div class="form-check">
                                     <div class="checkbox">
+                                        <!--perubahan-->
+                                        <input class="form-check-input me-2" type="checkbox" value=""
+                                            id="flexCheckDefault" onclick="ShowPassword()">
+                                        <label class="form-check-label text-gray-600" for="flexCheckDefault">
+                                            Show Password
+                                        </label>
+
+                                        <!--kode lama
                                         <input type="checkbox" class="form-check-input" id="showpassword">
                                         <label for="showpassword" onclick="ShowPassword()">Show Password</label>
+                                        -->
                                     </div>
                                 </div>
                                 <div class="px-4">
-                                    <button class="btn btn-block btn-light-primary font-bold mt-3" name="change">Change Password</button>
+                                    <button class="btn btn-block btn-light-primary font-bold mt-3" name="change">Change
+                                        Password</button>
                                 </div>
                             </form>
                         </div>
@@ -414,27 +424,32 @@
     </div>
 
     <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" aria-labelledby="exampleModalLabel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true"
-        aria-hidden="true">
+    <div class="modal fade" id="logoutModal" aria-labelledby="exampleModalLabel" data-bs-backdrop="static"
+        data-bs-keyboard="false" tabindex="-1" aria-hidden="true" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Ready to Leave?</h1>
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Ready to
+                        Leave?</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-body">Select "Logout" below if you are ready to
+                    end your current session.</div>
                 <div class="modal-footer">
-                    <button type="cancel" class="btn btn-light-secondary me-1 mb-1" data-bs-dismiss="modal">Cancel</button>
-                    <a href="logout.php"><button type="submit" name="logout" class="btn btn-primary me-1 mb-1">Logout</button></a>
+                    <button type="cancel" class="btn btn-light-secondary me-1 mb-1"
+                        data-bs-dismiss="modal">Cancel</button>
+                    <a href="logout.php"><button type="submit" name="logout"
+                            class="btn btn-primary me-1 mb-1">Logout</button></a>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js">
+    </script>
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
- 
+
     <script src="assets/vendors/apexcharts/apexcharts.js"></script>
     <script src="assets/js/pages/showpassword.js"></script>
     <!--<script src="assets/js/pages/chart.js"></script>-->
@@ -508,196 +523,198 @@
         }
     ?>
     <script>
-        //Setup Block
-        const items = <?php echo json_encode($a_items);?>;
-        const stock = <?php echo json_encode($a_stock);?>;
+    //Setup Block
+    const items = <?php echo json_encode($a_items);?>;
+    const stock = <?php echo json_encode($a_stock);?>;
 
-        const i_date = <?php echo json_encode($a_i_date);?>;
-        const i_amount = <?php echo json_encode($a_i_amount);?>;
+    const i_date = <?php echo json_encode($a_i_date);?>;
+    const i_amount = <?php echo json_encode($a_i_amount);?>;
 
-        const o_date = <?php echo json_encode($a_o_date);?>;
-        const o_amount = <?php echo json_encode($a_o_amount);?>;
+    const o_date = <?php echo json_encode($a_o_date);?>;
+    const o_amount = <?php echo json_encode($a_o_amount);?>;
 
-        var optionsStockItem = {
-            annotations: {
-                position: 'back'
-            },
-            dataLabels: {
-                enabled:false
-            },
-            chart: {
-                type: 'bar',
-                height: 450
-            },
-            fill: {
-                opacity:1
-            },
-            plotOptions: {
-            },
-            series: [{
-                name: 'stock',
-                data: stock
-            }],
-            colors: [
-            function({ value, seriesIndex, w }) {
-                if (value <= 20) 
-                {
+    var optionsStockItem = {
+        annotations: {
+            position: 'back'
+        },
+        dataLabels: {
+            enabled: false
+        },
+        chart: {
+            type: 'bar',
+            height: 450
+        },
+        fill: {
+            opacity: 1
+        },
+        plotOptions: {},
+        series: [{
+            name: 'stock',
+            data: stock
+        }],
+        colors: [
+            function({
+                value,
+                seriesIndex,
+                w
+            }) {
+                if (value <= 20) {
                     return '#FF0000'
-                } 
-                else if (value > 20 && value < 40)
-                {
+                } else if (value > 20 && value < 40) {
                     return '#ffa500'
-                }
-                else if (value >= 40)
-                {
+                } else if (value >= 40) {
                     return '#435ebe'
                 }
             }
-            ],
-            xaxis: {
-                categories: items,
-            },
-            plotOptions: {
-                bar: {
+        ],
+        xaxis: {
+            categories: items,
+        },
+        plotOptions: {
+            bar: {
                 horizontal: true
-                }
             }
         }
+    }
 
-        var optionsIncomingStock = {
-            series: [{
-                name: 'incoming stock',
-                data: i_amount
-            }],
-            chart: {
-                height: 200,
-                type: 'area',
-                toolbar: {
-                    show:true,
-                    tools: {
-                        download:false,
-                        selection:false,
-                        zoom:true,
-                        zoomin:true,
-                        zoomout:true,
-                        pan:false,
-                        reset:true,
-                    }
-                },
-            },
-            colors: ['#5350e9'],
-            stroke: {
-                width: 2,
-            },
-            grid: {
-                show:false,
-            },
-            dataLabels: {
-                enabled: false
-            },
-            xaxis: {
-                type: 'date',
-                categories: i_date,
-                axisBorder: {
-                    show:false
-                },
-                axisTicks: {
-                    show:false
-                },
-                labels: {
-                    show:false,
+    var optionsIncomingStock = {
+        series: [{
+            name: 'incoming stock',
+            data: i_amount
+        }],
+        chart: {
+            height: 200,
+            type: 'area',
+            toolbar: {
+                show: true,
+                tools: {
+                    download: false,
+                    selection: false,
+                    zoom: true,
+                    zoomin: true,
+                    zoomout: true,
+                    pan: false,
+                    reset: true,
                 }
             },
-            show:false,
-            yaxis: {
-                labels: {
-                    show:false,
-                },
+        },
+        colors: ['#5350e9'],
+        stroke: {
+            width: 2,
+        },
+        grid: {
+            show: false,
+        },
+        dataLabels: {
+            enabled: false
+        },
+        xaxis: {
+            type: 'date',
+            categories: i_date,
+            axisBorder: {
+                show: false
             },
-            tooltip: {
-                x: {
-                    format: 'dd/MM/yy HH:mm'
-                },
+            axisTicks: {
+                show: false
             },
-            colors: ['#008b75']
-        };
+            labels: {
+                show: false,
+            }
+        },
+        show: false,
+        yaxis: {
+            labels: {
+                show: false,
+            },
+        },
+        tooltip: {
+            x: {
+                format: 'dd/MM/yy HH:mm'
+            },
+        },
+        colors: ['#008b75']
+    };
 
-        var optionsOutofStock = {
-            series: [{
-                name: 'out of stock',
-                data: o_amount
-            }],
-            chart: {
-                height: 200,
-                type: 'area',
-                toolbar: {
-                    show:true,
-                    tools: {
-                        download:false,
-                        selection:false,
-                        zoom:true,
-                        zoomin:true,
-                        zoomout:true,
-                        pan:false,
-                        reset:true,
-                    }
-                },
-            },
-            colors: ['#5350e9'],
-            stroke: {
-                width: 2,
-            },
-            grid: {
-                show:false,
-            },
-            dataLabels: {
-                enabled: false
-            },
-            xaxis: {
-                type: 'date',
-                categories: o_date,
-                axisBorder: {
-                    show:false
-                },
-                axisTicks: {
-                    show:false
-                },
-                labels: {
-                    show:false,
+    var optionsOutofStock = {
+        series: [{
+            name: 'out of stock',
+            data: o_amount
+        }],
+        chart: {
+            height: 200,
+            type: 'area',
+            toolbar: {
+                show: true,
+                tools: {
+                    download: false,
+                    selection: false,
+                    zoom: true,
+                    zoomin: true,
+                    zoomout: true,
+                    pan: false,
+                    reset: true,
                 }
             },
-            show:false,
-            yaxis: {
-                labels: {
-                    show:false,
-                },
+        },
+        colors: ['#5350e9'],
+        stroke: {
+            width: 2,
+        },
+        grid: {
+            show: false,
+        },
+        dataLabels: {
+            enabled: false
+        },
+        xaxis: {
+            type: 'date',
+            categories: o_date,
+            axisBorder: {
+                show: false
             },
-            tooltip: {
-                x: {
-                    format: 'dd/MM/yy HH:mm'
-                },
+            axisTicks: {
+                show: false
             },
-            colors: ['#dc3545']
-        };
+            labels: {
+                show: false,
+            }
+        },
+        show: false,
+        yaxis: {
+            labels: {
+                show: false,
+            },
+        },
+        tooltip: {
+            x: {
+                format: 'dd/MM/yy HH:mm'
+            },
+        },
+        colors: ['#dc3545']
+    };
 
-        let optionsAmerica = {
-            ...optionsIncomingStock,
-            colors: ['#008b75'],
-        }
-        let optionsIndonesia = {
-            ...optionsIncomingStock,
-            colors: ['#dc3545'],
-        }
+    let optionsAmerica = {
+        ...optionsIncomingStock,
+        colors: ['#008b75'],
+    }
+    let optionsIndonesia = {
+        ...optionsIncomingStock,
+        colors: ['#dc3545'],
+    }
 
-        var chartStockItem = new ApexCharts(document.querySelector("#stock-item"), optionsStockItem);
-        var chartIncomingStock = new ApexCharts(document.querySelector("#chart-incoming-stock"), optionsIncomingStock);
-        var chartOutofStock = new ApexCharts(document.querySelector("#chart-out-of-stock"), optionsOutofStock);
+    var chartStockItem = new ApexCharts(document.querySelector("#stock-item"),
+        optionsStockItem);
+    var chartIncomingStock = new ApexCharts(document.querySelector(
+        "#chart-incoming-stock"), optionsIncomingStock);
+    var chartOutofStock = new ApexCharts(document.querySelector(
+        "#chart-out-of-stock"), optionsOutofStock);
 
-        chartOutofStock.render();
-        chartIncomingStock.render();
-        chartStockItem.render();
+    chartOutofStock.render();
+    chartIncomingStock.render();
+    chartStockItem.render();
     </script>
 
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>

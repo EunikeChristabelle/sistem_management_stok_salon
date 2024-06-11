@@ -165,7 +165,7 @@
             {
                 if(password_verify($n_password, $o_password))
                 {
-                    echo "<script> alert('Password Sudah Dipakai!')</script>";
+                    echo "<script> alert('Password sama dengan password lama!')</script>";
                     return false;   
                 }
                 else
